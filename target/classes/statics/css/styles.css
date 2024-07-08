@@ -1,0 +1,52 @@
+body {
+    background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+    color: #fff;
+}
+
+h1, legend {
+    color: #fff;
+}
+
+.form-group label {
+    color: #fff;
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-control, .form-check-input, .form-check-label, .form-check-label a {
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.form-control::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.btn-primary {
+    background-color: #000DFF;
+    border-color: #000DFF;
+}
+
+.btn-primary:hover {
+    background-color: #6B73FF;
+    border-color: #6B73FF;
+}
+
+fieldset {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+legend {
+    width: auto;
+    padding: 0 10px;
+}
+
+.invalid-feedback {
+    color: #ff6b6b;
+}

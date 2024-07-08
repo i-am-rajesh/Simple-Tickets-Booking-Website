@@ -1,0 +1,121 @@
+@charset "ISO-8859-1";
+
+ body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-top: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .ticket-card {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: box-shadow 0.3s ease;
+            background-color: #fff;
+        }
+
+        .ticket-card:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .ticket-header {
+            padding: 15px;
+            background-color: #007bff;
+            color: #ffffff;
+            border-top-left-radius: 8px;
+            border-top-right-radius: 8px;
+        }
+
+        .ticket-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 0;
+        }
+
+        .ticket-body {
+            padding: 15px;
+        }
+
+        .ticket-details {
+            margin-bottom: 10px;
+        }
+
+        .ticket-details p {
+            margin-bottom: 5px;
+            font-size: 0.9rem;
+            line-height: 1.6;
+        }
+
+        .ticket-details strong {
+            font-weight: 600;
+            margin-right: 5px;
+        }
+
+        .ticket-actions {
+            text-align: right;
+            padding-top: 10px;
+            border-top: 1px solid #dee2e6;
+            padding-right: 15px;
+            padding-bottom: 10px;
+        }
+
+        .ticket-actions a {
+            text-decoration: none;
+            font-size: 0.9rem;
+            margin-left: 10px;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+            padding: 6px 12px;
+        }
+
+        .ticket-actions a:hover {
+            opacity: 0.8;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+            color: #ffffff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+            color: #ffffff;
+        }
+        
+        .top-right {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+
+        .btn-danger:hover {
+            background-color: #c82333;
+            border-color: #bd2130;
+        }
+        
+        
+           /* Custom CSS for ticket view */
+        .ticket-card {
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            padding: 10px;
+        }
+        .editable-field {
+            border: none;
+            background: transparent;
+            width: 100%;
+        }
